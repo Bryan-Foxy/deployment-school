@@ -1,6 +1,6 @@
 # Electronics Hole Qualification Project
 
-![Project Overview](./saves/imgs/Capture_d’écran_2024-11-14_à_17.00.07.png)
+![Project Overview](./saves/imgs/Capture_decran_2024-11-14_17.00.07.png)
 
 ## Introduction
 
@@ -51,7 +51,7 @@ The **Segment Anything Model (SAM)** is integrated into the application to assis
 **Annotation Interface Screenshot:**
 - **Figure 3:** The annotation interface showing segmentation tools and class assignment options.
 
-  ![Annotation Interface](./saves/imgs/Capture_d’écran_2024-11-14_à_17.07.49.png)
+  ![Annotation Interface](./saves/imgs/Capture_decran_2024-11-14_17.07.49.png)
 
 ### 2. Prediction and Detection
 
@@ -64,7 +64,7 @@ The application leverages the trained YOLOv8 Nano model to detect defects in upl
 **Prediction Results Screenshot:**
 - **Figure 4:** Example of prediction results showing detected defects on an electronic component.
 
-  ![Prediction Results](./saves/imgs/Capture_d’écran_2024-11-14_à_17.06.53.png)
+  ![Prediction Results](./saves/imgs/Capture_decran_2024-11-14_17.06.53.png)
 
 ### 3. CSV Download
 
