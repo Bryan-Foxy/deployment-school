@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Projet AI - Electronics Hole Qualification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Projet AI - Electronics Hole Qualification</h1>
+            <h2>Professeur : Souhail Hanoune</h2>
+            <h3>Équipe : FOZAME ENDEZOUMOU, SETH SADY, ASMA GHAMACHA, REINE CLARA, KETSIA TALOSTING</h3>
+        </header>
+
+        <!-- Image de présentation du site -->
+        <div class="site-image">
+            <img src="{{ url_for('static', filename='images/luffy logo avec arrière-plan supprimé.png') }}" alt="Image du site">
+        </div>
+
+        <!-- Boutons d'actions -->
+        <div class="buttons">
+            <button id="btn-annotation">Annotation</button>
+            <button id="btn-prediction">Prédiction</button>
+            <button id="btn-tableau">Tableau</button>
+        </div>
+
+        <!-- Formulaire pour la prédiction -->
+        <div id="prediction-form" style="display: none;">
+            <form action="/predict" method="post" enctype="multipart/form-data">
+                <label for="file">Choisissez une image pour la prédiction :</label>
+                <input type="file" name="file" id="file" accept="image/*" required>
+                <button type="submit">Lancer la prédiction</button>
+            </form>
+        </div>
+
+        <!-- Section d'affichage de l'image prédite -->
+        <div id="image-container" style="display: none;">
+            <!-- Les images seront affichées ici après la prédiction -->
+        </div>
+
+        <!-- Tableau de résultats -->
+        <div id="table-container" style="display: none;">
+            <!-- Le tableau sera affiché ici -->
+        </div>
+
+        <!-- Bouton pour télécharger le CSV -->
+        <a id="download-csv" href="{{ url_for('download_csv') }}" class="btn" style="display: none;">Télécharger le tableau en CSV</a>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+body {
+    background-color: #202c39;
+    color: #f4e04d;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1, header h2, header h3 {
+    color: #f4e04d;
+    text-shadow: 2px 2px #ff6347;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #ff6347;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #ffa07a;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-side {
+    width: 45%;
+}
+
+.image-side img {
+    width: 100%;
+    border: 2px solid #f4e04d;
+    border-radius: 5px;
+}
+
+.table-container {
+    margin-top: 20px;
+    text-align: left;
+    background-color: #333;
+    padding: 20px;
+    color: #f4e04d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #f4e04d;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #ffa07a;
+}
+
+.site-image img {
+    max-width: 200px;
+    height: auto;
+}
+
+.annotation-content {
+    display: flex;
+}
+
+.image-list {
+    width: 25%;
+    margin-right: 20px;
+}
+
+.image-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.image-list li {
+    margin-bottom: 10px;
+}
+
+.image-list img {
+    cursor: pointer;
+    width: 100%;
+    border: 2px solid #f4e04d;
+    border-radius: 5px;
+}
+
+.annotation-area {
+    width: 75%;
+}
+
+#annotationCanvas {
+    border: 1px solid #ccc;
+    width: 100%;
+    cursor: crosshair;
+}
+
+.btn-action {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.btn-action:hover {
+    transform: scale(1.05);
+    background-color: #ffa07a;
+}
+
+#result {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#result img {
+    width: 45%;
+    border: 2px solid #f4e04d;
+    border-radius: 5px;
+}
+
+.btn-home {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s;
+    font-size: 16px;
+}
+
+.btn-home:hover {
+    transform: scale(1.05);
+    background-color: #ffa07a;
+}
