@@ -18,11 +18,13 @@ git clone https://github.com/Bryan-Foxy/deployment-school.git
 cd deployment-school/website # Go to website to use the interface
 ```
 
-```python
+🐍
+```python 
 pip install -r requirements.txt # Download librairies
 python setup.py # Run the Flask server
 ```
 
+Optional but If you prefer to use Docker let's goooo 🤾🏿‍♂️
 ```bash
 docker build -t nameoftheimage
 docker run -it --rm -p 5400:5400 nameoftheimage
