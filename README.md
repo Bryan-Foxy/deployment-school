@@ -12,6 +12,30 @@ The focus is on detecting chips and voids in electronic components using deep le
 
 The main goal of this project is to implement and deploy a YOLO-based segmentation model capable of detecting chips and voids in electronic components. This serves as a practical exercise in deploying machine learning models and understanding the challenges involved in bringing such models to a production environment.
 
+## Installation
+```bash
+git clone https://github.com/Bryan-Foxy/deployment-school.git
+cd deployment-school/website # Go to website to use the interface
+```
+
+```python
+pip install -r requirements.txt # Download librairies
+python setup.py # Run the Flask server
+```
+
+```bash
+docker build -t nameoftheimage
+docker run -it --rm -p 5400:5400 nameoftheimage
+```
+
+Have access to the link to open the interface
+```
+http://127.0.0.1:5400
+```
+
+
+``
+
 ## Dataset and Preprocessing
 
 Due to constraints in data availability, a small dataset comprising images of electronic components was used. Each image is annotated to identify chips and voids, which are critical defects in electronics manufacturing.
