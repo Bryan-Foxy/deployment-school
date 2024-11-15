@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This project was developed by a team of Aivancity students under the supervision of **Dr. Souhail Hanoune**. *The primary objective is to gain a comprehensive understanding of the entire machine learning lifecycle—from data collection to model deployment—by applying these concepts to a practical problem in electronics manufacturing*.
+This project was developed by our team at Aivancity under the supervision of **Dr. Souhail Hanoune**. *The primary objective is to gain a comprehensive understanding of the entire machine learning lifecycle—from data collection to model deployment—by applying these concepts to a practical problem in electronics manufacturing*.
 
 The focus is on detecting chips and voids in electronic components using deep learning techniques. While the dataset is limited, the emphasis is on the deployment process rather than achieving state-of-the-art model performance.
 
@@ -26,7 +26,7 @@ python setup.py # Run the Flask server
 ```bash
 docker build -t nameoftheimage
 docker run -it --rm -p 5400:5400 nameoftheimage
-```
+``
 
 Have access to the link to open the interface
 ```
