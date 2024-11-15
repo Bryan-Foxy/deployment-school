@@ -26,15 +26,12 @@ python setup.py # Run the Flask server
 ```bash
 docker build -t nameoftheimage
 docker run -it --rm -p 5400:5400 nameoftheimage
-``
+```
 
 Have access to the link to open the interface
 ```
 http://127.0.0.1:5400
 ```
-
-
-``
 
 ## Dataset and Preprocessing
 
