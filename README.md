@@ -17,6 +17,10 @@ The main goal of this project is to implement and deploy a YOLO-based segmentati
 git clone https://github.com/Bryan-Foxy/deployment-school.git
 cd deployment-school/website # Go to website to use the interface
 ```
+`Attention:`
+
+[Download SAM Model](https://drive.google.com/file/d/1_D96kmghOcwlK80PN73kvA1ad5d6cAUF/view?usp=share_link) to perfom auto annotation
+
 
 🐍
 ```python 
